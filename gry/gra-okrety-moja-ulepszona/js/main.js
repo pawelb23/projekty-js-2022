@@ -215,12 +215,12 @@ var model = {
 
 
         }
-        for (var i = 0; i < this.numShips.length; i) {
-            console.log("ship");
-            if (shipsHits[i].match(/hithithit/)) {
-                allShipsSunk = true;
-            }
-        }
+        // for (var i = 0; i < this.numShips.length; i++) {
+        //     console.log("ship");
+        //     if (shipsHits[i].match(/hithithit/)) {
+        //         allShipsSunk = true;
+        //     }
+        // }
     }
 
 };
@@ -361,8 +361,8 @@ console.log("");
 // console.log(model.ships);
 
 setTimeout(function() {
-        console.log(model.ships[0].locations);
-        console.log(model.ships[1].locations);
-        console.log(model.ships[2].locations);
+        // console.log(model.ships[0].locations);
+        // console.log(model.ships[1].locations);
+        // console.log(model.ships[2].locations);
     },
-    100);
+    500);
